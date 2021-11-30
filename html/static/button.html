@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Email Generator </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="/css/nav.css">
+        <link rel="stylesheet" href="/css/toggle-options.css">
+        <link rel="stylesheet" href="/css/form.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Code Mirror -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/codemirror.min.css"> </link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/theme/monokai.min.css"> </link>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/codemirror.min.js"> </script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/mode/htmlmixed/htmlmixed.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/mode/xml/xml.min.js"></script>
+
+    </head>
+    <body>
+
+<!-- Nav Bar  -->
+<div class="navbar">
+    <a href="../../index.html">Dynamic</a>
+    <div class="subnav">
+        <button class="subnavbtn">Static <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="shipping.html">Shipping Banner</a>
+          <a href="ads.html">Ads</a>
+          <a href="ads-two-by-two.html">Ads 2x2</a>
+          <a href="button.html">Button</a>
+
+
+
+        </div>
+      </div>
+      <div class="subnav">
+        <button class="subnavbtn"> 3 Column <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a href="three-col/v1.html">Version 1</a>
+            <a href="three-col/v2.html">Version 2</a>
+            <a href="three-col/v3.html">Version 3</a>
+        </div>
+      </div> 
+      <div class="subnav">
+        <button class="subnavbtn">2 Column <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a href="two-col/v1.html">Version 1</a>
+            <a href="two-col/v2.html">Version 2</a>
+            <a href="two-col/v3.html">Version 3</a>
+        </div>
+      </div> 
+  </div>
+
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tbody>
+        <tr>
+            <td align="center">
+                <table width="600" align="center" style="padding: 10px 0px;" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                    <tbody>
+                            <td align="center" style="font-family: Nunito Sans, open-sans, sans-serif; font-weight: Bold; font-size:20px; ;color:#000; text-align:cebter; padding: 10px 0px; background: #000 ; width: 100%; color: #fff;"><a href="https://www.abt.com/help/shipping-promotions" title="Free shipping on most orders" alt="Free shipping on most orders" style="text-decoration: none; color: #fff;" target="_blank"> Button </a></td>
+                    </tbody>
+            </td>
+        </tr>
+    </tbody>
+</table>
+  <!-- Email Example -->
+  <table style="margin-top: 10px;" class="example" width="600" cellpadding="10" cellspacing="0" border="0" role="presentation" style="width: 600px;">
+    <tr> 
+        <td align="center">
+            <table width="600" align="center" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                <tr>
+                    <td align="center" style="padding: 0px 0px 20px 0px;">
+                        <a href="link1" target="_blank" title="Shop" alt="Shop" style="background-color: #1c70bf; text-transform:uppercase; color: #fff; text-decoration: none; border-radius: 30px; font-family: Nunito Sans, open-sans, sans-serif; padding: 7px 22px; font-size: 15px; text-align: center; font-weight: bold; border: 1px solid #1c70bf;">Shop all Electronics</a>
+                    </td>
+                </tr>
+        </td>
+    </tr>
+</table>
+
+
+
+
+
+
+    <!-- Generate Template  -->
+
+        <div class="form-container two">
+
+            <form class="form static two">
+                <h2 class="number">Button</h2>
+                <h3> Outline Color </h3>
+                <input type="text" id="outline">
+                <h3> Text Color </h3>
+                <input type="text" id="color">
+                <h3> Background </h3>
+                <input type="text" id="bg">
+                <h3> Text </h3>
+                <input type="text" id="text">
+                <h3> Url </h3>
+                <input type="text" id="url">
+            </form>
+        </div>
+
+
+
+        <button id="create-template"> Generate template </button>
+
+        <div id="code"></div>
+
+
+        
+    </body>
+
+
+
+    <script src="/js/index.js" ></script>
+    <script src="/js/static/button.js" ></script>
+
+</html>

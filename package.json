@@ -1,0 +1,22 @@
+{
+  "name": "email-generator",
+  "version": "1.0.0",
+  "description": "Email Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jehdz/email-generator.git"
+  },
+  "author": "Jose Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jehdz/email-generator/issues"
+  },
+  "homepage": "https://github.com/jehdz/email-generator#readme",
+  "dependencies": {
+    "codemirror": "^5.64.0"
+  }
+}

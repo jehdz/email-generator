@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Email Generator </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="/css/nav.css">
+        <link rel="stylesheet" href="/css/toggle-options.css">
+        <link rel="stylesheet" href="/css/form.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Code Mirror -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/codemirror.min.css"> </link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/theme/monokai.min.css"> </link>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/codemirror.min.js"> </script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/mode/htmlmixed/htmlmixed.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/mode/xml/xml.min.js"></script>
+
+    </head>
+    <body>
+
+<!-- Nav Bar  -->
+<div class="navbar">
+    <a href="../../index.html">Dynamic</a>
+    <div class="subnav">
+        <button class="subnavbtn">Static <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="../shipping.html">Shipping Banner</a>
+          <a href="../ads.html">Ads</a>
+          <a href="../ads-two-by-two.html">Ads 2x2</a>
+          <a href="../button.html">Button</a>
+
+        </div>
+      </div>
+      <div class="subnav">
+        <button class="subnavbtn"> 3 Column <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a href="v1.html">Version 1</a>
+            <a href="v2.html">Version 2</a>
+            <a href="v3.html">Version 3</a>
+        </div>
+      </div> 
+      <div class="subnav">
+        <button class="subnavbtn">2 Column <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a href="../two-col/v1.html">Version 1</a>
+            <a href="../two-col/v2.html">Version 2</a>
+            <a href="../two-col/v3.html">Version 3</a>
+        </div>
+      </div> 
+  </div>
+
+
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tbody>
+        <tr>
+            <td align="center">
+                <table width="600" align="center" style="padding: 10px 0px;" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                    <tbody>
+                            <td align="center" style="font-family: Nunito Sans, open-sans, sans-serif; font-weight: Bold; font-size:20px; ;color:#000; text-align:cebter; padding: 10px 0px; background: #000 ; width: 100%; color: #fff;"><a href="https://www.abt.com/help/shipping-promotions" title="Free shipping on most orders" alt="Free shipping on most orders" style="text-decoration: none; color: #fff;" target="_blank"> Version 2 </a></td>
+                    </tbody>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+  <!-- Email Example -->
+    <table style="margin-top: 10px !important;" class="example" width="600" cellpadding="0" cellspacing="0" border="0" role="presentation">
+        <tr>
+            <td width="190" align="center" style="padding: 0px 10px 10px 0px">
+                <a href="https://www.abt.com/LG-50-UP7000PUA-Series-4K-Smart-UHD-TV-2021-50UP7000PUA/p/162468.html" title="LG HD TV" target="_blank">
+                    <img src="https://content.abt.com/media/newsletter/images/110921_Product_1.jpg" alt="LG HD TV" width="190" border="0" style="display:block">
+                    </a>
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                <tr>
+                                    <td align="left">
+                                        <table width="100%" align="left" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                            <tr>
+                                                <td style="font-family: Nunito Sans, open-sans, sans-serif; font-size:22px; font-weight: bold; background-color: #fff ;color:#000000; text-align:Center; padding: 20px 0px 0px 0px;"> <a href="https://www.abt.com/LG-50-UP7000PUA-Series-4K-Smart-UHD-TV-2021-50UP7000PUA/p/162468.html" target="_blank" title="LG HD TV" alt="LG HD TV" style="display: block; text-decoration: none; font-weight: lighter;color: #a1a1a1; font-size: 15px;">LG HD TV</a> </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-family: Nunito Sans, open-sans, sans-serif; font-size:20px; font-weight: bold; background-color: #fff ;color:#000000; text-align:Center; padding: 10px 0px 0px 0px "> <a href="https://www.abt.com/LG-50-UP7000PUA-Series-4K-Smart-UHD-TV-2021-50UP7000PUA/p/162468.html" target="_blank" title="$398" style="display: block; text-decoration: none; color: #007dc3;">$398 </a> </td>
+                                            </tr>
+        
+                                            <tr>
+                                                <td align="center" style="padding: 0px 0px 10px 0px;"> <a href="https://www.abt.com/LG-50-UP7000PUA-Series-4K-Smart-UHD-TV-2021-50UP7000PUA/p/162468.html" title="Shop Now" style="padding: 10px 20px 20px 20px; width:auto;display: block;text-decoration: none;border:0;text-align: center;font-weight: bold;font-size: 18px;font-family: Nunito Sans, open-sans, sans-serif; color : #000 ;background-color: #fff; line-height:16px; text-transform: uppercase;" target="_blank"> Shop Now > </a> 
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+            </td>
+        
+        
+            <td width="190" align="center" style="padding: 0px 5px 10px 5px">
+                <a href=" https://www.abt.com/Sony-65-X80J-Black-4K-HDR-LED-Smart-HDTV-KD65X80J/p/160592.html" title="SONY HD TV " target="_blank">
+                    <img src="https://content.abt.com/media/newsletter/images/110921_Product_2.jpg" alt="SONY HD TV " width="190" border="0" style="display:block">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                        <tr>
+                            <td align="left">
+                                <table width="100%" align="left" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                    <tr>
+                                        <td style="font-family: Nunito Sans, open-sans, sans-serif; font-size:22px; font-weight: bold; background-color: #fff ;color:#000000; text-align:Center; padding: 20px 0px 0px 0px;"> <a href=" https://www.abt.com/Sony-65-X80J-Black-4K-HDR-LED-Smart-HDTV-KD65X80J/p/160592.html" target="_blank" title="SONY HD TV " alt="SONY HD TV " style="display: block; text-decoration: none; font-weight: lighter;color: #a1a1a1; font-size: 15px;">SONY HD TV </a> </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-family: Nunito Sans, open-sans, sans-serif; font-size:20px; font-weight: bold; background-color: #fff ;color:#000000; text-align:Center; padding: 10px 0px 0px 0px "> <a href=" https://www.abt.com/Sony-65-X80J-Black-4K-HDR-LED-Smart-HDTV-KD65X80J/p/160592.html" target="_blank" title="$998" style="display: block; text-decoration: none; color: #007dc3;">$998 </a> </td>
+                                    </tr>
+        
+                                    <tr>
+                                        <td align="center" style="padding: 0px 0px 10px 0px;"> <a href=" https://www.abt.com/Sony-65-X80J-Black-4K-HDR-LED-Smart-HDTV-KD65X80J/p/160592.html" title="Shop Now" style="padding: 10px 20px 20px 20px; width:auto;display: block;text-decoration: none;border:0;text-align: center;font-weight: bold;font-size: 18px;font-family: Nunito Sans, open-sans, sans-serif; color : #000 ;background-color: #fff; line-height:16px; text-transform: uppercase;" target="_blank"> Shop Now > </a> 
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+            </td>
+        
+        
+            <td width="190" align="center" style="padding: 0px 0px 10px 10px">
+                <a href="https://www.abt.com/Samsung-120-The-Premiere-LSP7T-4K-Smart-Laser-Projector-2020-SPLSP7TFAXZA/p/159451.html" title="PROJECTOR" target="_blank">
+                    <img src="https://content.abt.com/media/newsletter/images/110921_Product_3.jpg" alt="PROJECTOR" width="190" border="0" style="display:block">
+                    </a>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                        <tr>
+                            <td align="left">
+                                <table width="100%" align="left" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                    <tr>
+                                        <td style="font-family: Nunito Sans, open-sans, sans-serif; font-size:22px; font-weight: bold; background-color: #fff ;color:#000000; text-align:Center; padding: 20px 0px 0px 0px;"> <a href="https://www.abt.com/Samsung-120-The-Premiere-LSP7T-4K-Smart-Laser-Projector-2020-SPLSP7TFAXZA/p/159451.html" target="_blank" alt="PROJECTOR" title="PROJECTOR" style="display: block; text-decoration: none; font-weight: lighter;color: #a1a1a1; font-size: 15px;">PROJECTOR</a> </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-family: Nunito Sans, open-sans, sans-serif; font-size:20px; font-weight: bold; background-color: #fff ;color:#000000; text-align:Center; padding: 10px 0px 0px 0px "> <a href="https://www.abt.com/Samsung-120-The-Premiere-LSP7T-4K-Smart-Laser-Projector-2020-SPLSP7TFAXZA/p/159451.html" target="_blank" title="$233" style="display: block; text-decoration: none; color: #007dc3;">$233 </a> </td>
+                                    </tr>
+        
+                                    <tr>
+                                        <td align="center" style="padding: 0px 0px 10px 0px;"> <a href="https://www.abt.com/Samsung-120-The-Premiere-LSP7T-4K-Smart-Laser-Projector-2020-SPLSP7TFAXZA/p/159451.html" title="Shop Now" style="padding: 10px 20px 20px 20px; width:auto;display: block;text-decoration: none;border:0;text-align: center;font-weight: bold;font-size: 18px;font-family: Nunito Sans, open-sans, sans-serif; color : #000 ;background-color: #fff; line-height:16px; text-transform: uppercase;" target="_blank"> Shop Now > </a> 
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+            </td>
+        </tr>
+    </table>
+
+
+
+
+    <!-- Generate Template  -->
+
+
+
+
+
+    
+
+        <div class="form-container">
+
+            <form class="form static">
+                <h2 class="number">One</h2>
+                <h3> Url </h3>
+                <input type="text" id="url1">
+                <h3> Image Url </h3>
+                <input type="text" id="imageUrl1">
+                <h3> Product </h3>
+                <input type="text" id="product1">
+                <h3> Sale Price </h3>
+                <input type="text" id="productSalePrice1">
+                <h3> Regular Price </h3>
+                <input type="text" id="productRegPrice1">
+            </form>
+
+            <form class="form static">
+                <h2 class="number">Two</h2>
+                <h3> Url 2</h3>
+                <input type="text" id="url2">
+                <h3> Image Url 2</h3>
+                <input type="text" id="imageUrl2">
+                <h3> Product 2 </h3>
+                <input type="text" id="product2">
+                <h3> Sale Price 2</h3>
+                <input type="text" id="productSalePrice2">
+                <h3> Regular Price 2 </h3>
+                <input type="text" id="productRegPrice2">
+            </form>
+
+
+            <form class="form static">
+                <h2 class="number">Three</h2>
+                <h3> Url 3</h3>
+                <input type="text" id="url3">
+                <h3> Image Url 3</h3>
+                <input type="text" id="imageUrl3">
+                <h3> Product 3 </h3>
+                <input type="text" id="product3">
+                <h3> Sale Price 3</h3>
+                <input type="text" id="productSalePrice3">
+                <h3> Regular Price 3 </h3>
+                <input type="text" id="productRegPrice3">
+            </form>
+
+        </div>
+
+
+
+        <button id="create-template"> Generate template </button>
+
+        <div id="code"></div>
+
+
+        
+    </body>
+
+    <script>
+
+        $('#createTemplate1').on('click', function(){
+            $('.form').show();
+        })
+    </script>
+
+    <script src="/js/index.js" ></script>
+    <script src="/js/static/three-col/v2.js" ></script>
+
+</html>
